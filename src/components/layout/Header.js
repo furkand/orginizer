@@ -6,7 +6,7 @@ const Header = () =>{
         <header className="header" data-testid='header'>
             <nav>
                 <div className="logo">
-                    <img src="/images/logo.png" alt="Orginizer"/>
+                    <img src="/images/logo.svg" alt="Orginizer"/>
                 </div>
                 <div className="settings">
                     <ul>
