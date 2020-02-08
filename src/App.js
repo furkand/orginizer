@@ -1,12 +1,16 @@
+import Header from "./components/layout/Header"
+import Content from "./components/layout/Content"
 import React from 'react';
 import './App.css';
 
-function App() {
+export default () => {
+  
   return (
     <div className="App">
-     
-    </div>
+      <Header/>
+      <Content />
+    </div>  
   );
 }
 
-export default App;
+
